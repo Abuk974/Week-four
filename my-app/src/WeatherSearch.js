@@ -5,7 +5,7 @@ import axios from "axios";
 export default function WeatherSearch(props) {
   const [city, setCity] = useState("");
   const [loaded, setLoaded] = useState("");
-  const [temperature, setTemperature] = useState(null);
+  
   const [weather, setWeather] = useState({});
 
   function showWeather(response) {
@@ -17,7 +17,7 @@ export default function WeatherSearch(props) {
       Humidity: response.data.main.Humidity,
       Icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
     });
-    setTemperature(response.data.main.temp);
+   
     console.log(response.data.main.temp);
   }
 
