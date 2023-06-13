@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  background-image: url("");
-  color: rgb(245, 243, 243);
+  color: rgb(15, 15, 15);
 }
 .App li{
   list-style: none;
@@ -10,5 +9,5 @@
 .container{
   background-image: url("https://wallpapers.com/images/featured/05bsl7m2e5bh01ki.jpg");
   background-size: cover;
-  
+  border: 20px;
 }
