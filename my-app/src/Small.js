@@ -6,7 +6,7 @@ export default function Small() {
         <small>
         <a
           href="https://github.com/Abuk974/fineapp.git"
-          target="_blank"
+          target=""
           >Open-source code</a
         >
         Abuk Sedonia
