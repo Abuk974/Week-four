@@ -6,9 +6,7 @@
 .App li{
   list-style: none;
 }
-.small{
-  text-align: center;
-}
+
 .container{
   background-image: url("https://wallpapers.com/images/featured/05bsl7m2e5bh01ki.jpg");
   background-size: cover;
